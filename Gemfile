@@ -54,3 +54,4 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.6', '>= 4.6.2'
 gem 'pwa', '~> 4.0', '>= 4.0.5'
+gem 'awesome_rails_console', '~> 0.4.3'
