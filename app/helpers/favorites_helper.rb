@@ -6,8 +6,7 @@ module FavoritesHelper
       render_button(favoritable.id, favoritable.class, :post, :far)
     end
   end
-
-
+  
   private
     def render_button(id, type, method, icon_format)
       url = send("favorite_#{type.to_s.downcase}_path", id)
